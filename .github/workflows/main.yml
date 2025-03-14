@@ -1,5 +1,5 @@
 # Name of workflow
-name: Lint workflow
+name: Lint and Test workflow
 
 # Trigger workflow on all pull requests
 on:
@@ -32,3 +32,14 @@ jobs:
       # Run lint
       - name: Run Lint
         run: npm run lint
+<<<<<<< HEAD
+=======
+
+      # Run build
+      - name: Run Build
+        run: npm run build
+
+      # Run tests
+      - name: Run Tests
+        run: npm run test
+>>>>>>> 2df656d950931b76ffa0428d2bb4ce3045612749
